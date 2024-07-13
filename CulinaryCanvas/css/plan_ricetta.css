@@ -1,0 +1,32 @@
+@import url(index.css);
+
+.expanding-bar {
+    height: 2px;
+    background-color: #fff;
+    margin: 10px auto;
+    width: 100%;
+}
+
+/* Contenitore principale dell'aggiunta al piano alimentare */
+.plan-add-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.plan-add-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}

@@ -1,0 +1,106 @@
+@import url(ricette.css);
+
+.expanding-bar {
+    height: 2px;
+    background-color: #fff;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.add-recipe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+.add-recipe-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+.add-recipe-form h2 {
+    text-align: center;
+    color: #2980b9; 
+    margin-bottom: 20px;
+    color: #2980b9;
+}
+.add-recipe-form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.add-recipe-form input[type="text"],
+.add-recipe-form textarea,
+.add-recipe-form select,
+.add-recipe-form input[type="number"] {
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto; /* Centra l'elemento */
+    display: block; /* Fa sì che i margini funzionino per centrare */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: justify;
+}
+.add-recipe-form .ingredient-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.add-recipe-form .ingredient-fields input,
+.add-recipe-form .ingredient-fields select {
+    flex: 1;
+    min-width: 30%;
+}
+.add-recipe-form .ingredient-section {
+    margin-bottom: 20px;
+}
+.add-recipe-form .add-more-button,
+.add-recipe-form .submit-button {
+    background-color: #2980b9; 
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.add-recipe-form .submit-button {
+    padding: 12px 20px;
+    width: 100%;
+    font-size: 16px;
+}
+.add-recipe-form .add-more-button:hover,
+.add-recipe-form .submit-button:hover {
+    background-color: #45a049; 
+}
+.add-recipe-form .remove-button {
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.add-recipe-form .remove-button:hover {
+    background-color: #e53935; 
+}
+.add-recipe-form .photo-fields {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.add-recipe-form .photo-fields input {
+    flex: 1;
+}

@@ -1,0 +1,57 @@
+@import url(index.css);
+
+.expanding-bar {
+    height: 2px;
+    background-color: #fff;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.add-plan-container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.add-plan-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-plan-form h2 {
+    text-align: center;
+    color: #2980b9;
+    margin-bottom: 20px;
+}
+
+.add-plan-form label {
+    margin-bottom: 10px;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.add-plan-form input[type="number"],
+.add-plan-form input[type="date"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+}
+
+.add-plan-form .submit-button {
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.add-plan-form .submit-button:hover {
+    background-color: #3498db;
+}
