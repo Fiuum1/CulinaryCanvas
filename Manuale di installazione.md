@@ -82,9 +82,7 @@ Nella sezione 'Risultati Ricerca' verranno visualizzate le ricette che posseggon
 Per accedere all'area personale, basta cliccare sull'icona di profilo dell'utente, e verranno visualizzati username, nome, cognome, email (con la possibilità di cambiarla) e le ricette da egli pubblicate. Sarà possibile rimuoverle manualmente.
 <img width="1440" alt="Screenshot 2024-07-13 alle 16 09 20" src="https://github.com/user-attachments/assets/9614a551-6ce2-48ce-a57d-6d149ec04654">
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
-
+<br/><br/><br/>
 # Test funzionali
 Per garantire il rispetto dei requisiti di sicurezza e delle regole di business, sono stati fatti diversi test manuali per verificare la correttezza delle risposte del sistema a situazioni anomale.
 
