@@ -131,7 +131,6 @@ b. Tentativo di inserimento di un piano alimentare con informazioni non consenti
 <img width="1440" alt="Screenshot 2024-07-13 alle 16 40 00" src="https://github.com/user-attachments/assets/0dfc6c56-a25f-48e4-8a96-b4b9ccbe428e">
 
 c. Aggiunta di una ricetta ad un giorno in cui è già presente: il sistema risponde correttamente, reindirizzando l'utente ad una pagina che gli mostra l'errore.
-<img width="473" alt="Screenshot 2024-07-13 alle 16 45 41" src="https://github.com/user-attachments/assets/eae0f298-ce0c-4736-bd9f-47909986a215">
 
 # Test sezione Lista della spesa
 a. Tentativo di accesso alla pagina senza aver effettuato l'accesso al sito Web: il sistema risponde correttamente alla richiesta, reindirizzando l'utente alla pagina di Login.
