@@ -112,6 +112,7 @@ a. Tentativo di aggiunta recensione senza aver effettuato il Login: il sistema r
 
 
 b. Tentativo di aggiunta di un ingrediente in una nuova ricetta con unità di misura numerica (inesistente): il sistema non consente il proseguimento, avvisando correttamente l'utente.
+
 <img width="561" alt="Screenshot 2024-07-13 alle 16 30 14" src="https://github.com/user-attachments/assets/9149f2d8-0748-4e85-b004-6ead1c06802a">
 
 
