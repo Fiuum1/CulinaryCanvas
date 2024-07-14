@@ -5,7 +5,9 @@ Per completezza, di seguito sono riportati alcuni report statistici che ci conse
 **1. Numero di ricette per Utente**
 
   SELECT Utente, COUNT(*) AS NumeroRicette
+  
   FROM Ricette
+  
   GROUP BY Utente;
 
 <br/><br/>
